@@ -15,8 +15,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import include, re_path
+from yugioh_api import urls as yugioh_urls
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    re_path('admin/', admin.site.urls),
+    re_path('api-auth/', include('rest_framework.urls')),
+    re_path('cards/', include(yugioh_urls))
 ]
+
