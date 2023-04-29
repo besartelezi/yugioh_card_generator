@@ -13,6 +13,8 @@ These are the following goals for the MVP:
 
 ## Getting to the MVP
 In order to get there, we'll need to take one small step at a time.
+So for I will be focussing on creating a REST API that allows the user to create Normal Monster Cards.
+Once this functionality has been added, I can play around a bit and learn more about how Django works.
 
 ---
 

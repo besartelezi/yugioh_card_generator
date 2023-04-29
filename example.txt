@@ -1,0 +1,9 @@
+{
+    "name": "Besart - The Rune Programmer",
+    "attribute": "Dark",
+    "stars": 4,
+    "type": "Machine / Spellcaster",
+    "description": "After delving too deep in the dark arts of Programming, something snapped inside of the young mind of Besart. He has harnessed the power of both Python as the Dark Arts, he is now able to summon literal pythons at his disposal.",
+    "attack": 4200,
+    "defense": 1690
+}
