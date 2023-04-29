@@ -6,6 +6,12 @@ These are the following goals for the MVP:
 - [ ] Users can register, log in, and delete their accounts
 - [ ] Logged in users can create Yu-Gi-Oh cards (but they can't add images yet)
 - [ ] They can save those cards to the database
+- [ ] Tests for *almost* **everything**
+
+## Getting to the MVP
+In order to get there, we'll need to take one small step at a time.
+
+---
 
 ## Post-MVP
 These will be the next goals:
