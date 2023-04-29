@@ -4,4 +4,4 @@ from .models import MonsterCard
 class MonsterCardSerializer(serializers.ModelSerializer):
     class Meta:
         model = MonsterCard
-        fields = ["name", "attribute", "stars", "type", "description", "attack", "defense"]
+        fields = ["name", "attribute", "stars", "type", "description", "attack", "defense", "user"]
